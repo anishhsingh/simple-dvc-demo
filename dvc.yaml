@@ -29,8 +29,9 @@ stages:
     metrics:
     - report/scores.json:
         cache: false
-    - report/params.json
+    - report/params.json:
         cache: false
     outs:
+    - saved_models/model.joblib
        
   
